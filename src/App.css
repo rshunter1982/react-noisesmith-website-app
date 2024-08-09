@@ -56,3 +56,163 @@
     transform: rotate(360deg);
   }
 }
+
+nav {
+    width: 30%;
+    height: 300px;
+    background: yellow;
+}
+
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: red;
+    height: 300px;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+footer {
+    background-color: brown;
+    padding: 10px;
+    text-align: center;
+    color: wheat;
+}
+
+@media (max-width: 600px) {
+
+    nav,
+    article {
+        width: 100%;
+        height: auto;
+    }
+}
+
+#backgroundVideo {
+    object-fit: cover;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+#backgroundVideo1 {
+    position: fixed;
+    min-width: 50%;
+    min-height: 50%;
+    width: auto;
+    height: auto;
+}
+
+button {
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    align-items: center;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    justify-content: center;
+    display: flex;
+}
+
+    button:hover {
+        border: 1px solid red;
+        color: red;
+        fill: red;
+    }
+
+    button svg {
+        margin-left: auto;
+        width: 25px;
+        height: 25px;
+    }
+
+    button span {
+        margin-right: auto;
+    }
+
+    button:hover .icon-svg {
+        fill: red;
+    }
+
+    button h1 {
+        color: white;
+    }
+
+.iconbutton {
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    align-items: center;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+}
+
+    .iconbutton:hover {
+        border: 1px solid red;
+        color: red;
+        fill: red;
+    }
+
+    .iconbutton svg {
+        margin-left: auto;
+        width: 25px;
+        height: 25px;
+    }
+
+    .iconbutton span {
+        margin-right: auto;
+    }
+
+    .iconbutton:hover .icon-svg {
+        fill: red;
+    }
+
+h3 {
+    align-items: center;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.label {
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 10px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin-left: 50%;
+    padding: 0;
+    flex-wrap: wrap;
+    transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+}
+
+li {
+    margin: 10px;
+}
