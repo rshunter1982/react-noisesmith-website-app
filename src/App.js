@@ -10,7 +10,7 @@ function App() {
               <h1>Noisesmith</h1>
       </header>
           <body className="App-body">
-              <video autoplay muted loop id="backgroundVideo">
+              <video autoplay muted loop className="backgroundVideo">
                   <source
                       src="https://ugc.production.linktr.ee/54327e82-0d80-45a5-94db-20fa65e1566e_production-id-4990319--1080p-.mp4"
                       type="video/mp4"/>
