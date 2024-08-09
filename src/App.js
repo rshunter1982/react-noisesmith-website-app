@@ -6,7 +6,6 @@ function App() {
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo" />
-                <h1>Noisesmith</h1>
                 <ul>
                     <li>
                         <button type="button" onclick="location.href='NoisesmithAboutSite.html'" width="auto">
