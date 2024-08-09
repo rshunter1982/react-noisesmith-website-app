@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: transparent;
   min-height: 50vh;
   display: flex;
   flex-direction: column;
@@ -24,14 +24,14 @@
   color: white;
 }
 .App-body {
-  background-color: red;
+  background-color: transparent;
 }
 .App-footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: blue;
+  background-color: transparent;
   color: white;
   text-align: center;
 }
