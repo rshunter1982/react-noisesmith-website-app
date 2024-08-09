@@ -1,6 +1,5 @@
 import logo from './NoiseSmith_Logo.svg';
 import './App.css';
-import ReactPlayer from 'reactplayer';
 
 function App() {
     return (
