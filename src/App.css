@@ -21,17 +21,17 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 .App-body {
-  background-color: transparent;
+  background-color: white;
 }
 .App-footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: transparent;
+  background-color: gray;
   color: white;
   text-align: center;
 }
