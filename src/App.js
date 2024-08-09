@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './NoiseSmith_Logo.svg';
 import './App.css';
 
 function App() {
