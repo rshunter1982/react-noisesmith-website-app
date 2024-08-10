@@ -6,7 +6,7 @@ function App() {
     return (
         <div className="App">
             <header className="App-header">
-                <video className="backgroundVideo" alt="background video" autoPlay={true} loop={true} muted={true} > 
+                <video className="backgroundVideo" alt="background video" autoPlay={true} loop={true} muted={true} playsinline={true}> 
                     <source src={backVideo} type="video/mp4" />
                 </video>
                 <img src={logo} className="App-logo" alt="logo" />
