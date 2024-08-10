@@ -1,10 +1,12 @@
 import logo from './NoiseSmith_Logo.svg';
+import backVideo from './assets/54327e82-0d80-45a5-94db-20fa65e1566e_production-id-4990319--1080p-.mp4'
 import './App.css';
 
 function App() {
     return (
         <div className="App">
             <header className="App-header">
+                <video src={backVideo} autoPlay loop muted />
                 <img src={logo} className="App-logo" alt="logo" />
                 <ul>
                     <li>
