@@ -31,9 +31,10 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: gray;
+  background-color: transparent;
   color: white;
   text-align: center;
+  font-size: 10px;
 }
 .App-link {
   color: #61dafb;
@@ -107,7 +108,7 @@ footer {
 }
 
 button {
-    width: 200px;
+    width: 150px;
     height: 35px;
     padding: 5px;
     align-items: center;
