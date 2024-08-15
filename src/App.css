@@ -135,21 +135,16 @@ footer {
     color: wheat;
 }
 
-@media (max-width: 100%) {
+@media (max-width: 600px) {
 
     nav,
     article {
         width: 100%;
         height: auto;
-    }
-}
-
-#backgroundVideo1 {
-    position: fixed;
-    min-width: 50%;
-    min-height: 50%;
-    width: auto;
-    height: auto;
+    },
+     .templatecontent {
+         flex-basis: 100%;
+     }
 }
 
 button {
@@ -253,4 +248,15 @@ ul {
 
 li {
     margin: 10px;
+}
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+.templatecontent {
+    flex-basis: 33%;
+    flex-grow: 1;
+    background-position: center;
+    background-size: cover;
 }
