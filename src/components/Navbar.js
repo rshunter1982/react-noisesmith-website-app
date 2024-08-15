@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
     const navigate = useNavigate()
+    const gotoHome = () => { navigate("/"); }
     const gotoAbout = () => { navigate("/about"); }
     const gotoListen = () => { navigate("/listen"); }
     const gotoConnect = () => { navigate("/connect"); }
@@ -10,6 +11,15 @@ const Navbar = () => {
     return (
         <>
             <ul>
+                <li>
+                    <button type="button" onClick={() => gotoHome()} width="auto">
+                        <span class="label">Home</span>
+                        <svg id="icon-svg" class="icon-svg" fill="white" width="33.33px" height="33.33px"
+                            viewBox="0 0 24 24">
+                            <path d="M21 13v10h-6v-6h-6v6h-6v-10h-3l12-12 12 12h-3zm-1-5.907v-5.093h-3v2.093l3 3z" />
+                        </svg>
+                    </button>
+                </li>
                 <li>
                     <button type="button" onClick={() => gotoAbout()} width="auto">
                         <span class="label">ABOUT</span>

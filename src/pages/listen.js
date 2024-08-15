@@ -1,9 +1,6 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 
 const Listen = () => {
-    const navigate = useNavigate()
-    const gotoNewPage = () => { navigate("/blogs"); }
     return (
         <div>
             <h1>
