@@ -1,17 +1,18 @@
 .App {
-  text-align: center;
+    text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
-  pointer-events: none;
+    height: 40vmin;
+    pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: shake infinite 1s;
-  }
+    .App-logo {
+        animation: shake infinite 1s;
+    }
 }
+
 @keyframes shake {
     0% {
         transform: translate(1px, 1px) rotate(0deg);
@@ -57,33 +58,40 @@
         transform: translate(1px, -2px) rotate(-1deg);
     }
 }
+
 .App-header {
-  background-color: transparent;
-  min-height: 20vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
 }
+
 .App-body {
-  background-color: white;
+    background-color: white;
 }
+
 .App-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: black;
-  opacity: .25;
-  color: white;
-  text-align: center;
-  font-size: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    opacity: .25;
+    color: white;
+    text-align: center;
+    font-size: 10px;
 }
+
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
+
 .backgroundVideo {
     object-fit: cover;
     position: fixed;
@@ -95,12 +103,13 @@
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 nav {
@@ -141,10 +150,12 @@ footer {
     article {
         width: 100%;
         height: auto;
-    },
-     .templatecontent {
-         flex-basis: 100%;
-     }
+    }
+
+    ,
+    .templatecontent {
+        flex-basis: 100%;
+    }
 }
 
 button {
@@ -220,9 +231,11 @@ h3 {
     align-items: center;
     color: white;
 }
+
 h1 {
     color: white;
 }
+
 a {
     color: white;
 }
@@ -236,6 +249,7 @@ a {
 
 ul {
     display: flex;
+    align-content: center;
     align-items: center;
     list-style-type: none;
     margin-left: 50%;
@@ -247,13 +261,17 @@ ul {
 }
 
 li {
+    align-content: center;
+    align-items: center;
     margin: 10px;
 }
+
 .flex-box {
     display: flex;
     flex-wrap: wrap;
     height: 100%;
 }
+
 .templatecontent {
     flex-basis: 33%;
     flex-grow: 1;

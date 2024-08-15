@@ -19,11 +19,11 @@ import Blogs from "./pages/blogs";
 const App = () => {
     return (
         <div className="App">
+            <video className="backgroundVideo" alt="background video" autoPlay="autoplay" loop="true" muted="true" playsinline="playsinline" controls={false} >
+                <source src={backVideo} type="video/mp4" />
+            </video>
             <header className="App-header">
-                <video className="backgroundVideo" alt="background video" autoPlay="autoplay" loop="true" muted="true" playsinline="playsinline" controls={false} >
-                    <source src={backVideo} type="video/mp4" />
-                </video>
-                <img src={logo} className="App-logo" alt="logo" />
+                <img src={logo} className="App-logo" alt="logo"/>
                 <Router>
                     <Navbar />
                     <Routes>
@@ -36,6 +36,9 @@ const App = () => {
                     </Routes>
                 </Router>
             </header>
+            <body>
+
+            </body>
             <footer className="App-footer">
                 <h1>Noisesmith Music</h1>
             </footer>
