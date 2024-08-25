@@ -19,8 +19,8 @@ import gsap from "gsap"
 
 const App = () => {
     const comp = useRef(null)
-
     useLayoutEffect(() => {
+        window.scrollTo(0, 0);
         let ctx = gsap.context(() => {
             const t1 = gsap.timeline()
             t1.from("#intro-slider", {
@@ -39,6 +39,7 @@ const App = () => {
             }).to("#intro-slider", {
                 xPercent: "-100",
                 duration: 1.3,
+                height:0,
             }).from("#application", {
                 opacity: 0,
                 duration: 0.5,
@@ -72,7 +73,7 @@ const App = () => {
                         </Routes>
                     </Router>
                 </header>
-                <body>
+                <body className="App-body">
 
                 </body>
                 <footer className="App-footer">
