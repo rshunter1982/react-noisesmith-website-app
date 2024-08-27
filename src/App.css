@@ -83,7 +83,13 @@
     font-size: calc(10px + 2vmin);
     color: black;
 }
-
+.NavBarButtons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
 .App-body {
     background-color: black;
 }
