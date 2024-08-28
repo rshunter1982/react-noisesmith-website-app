@@ -25,8 +25,8 @@ const App = () => {
             const t1 = gsap.timeline()
             t1.from("#intro-slider", {
                 xPercent: "-100",
-                duration: 1.3,
-                delay:0.3,
+                yPercent: "-100",
+                duration: 1,
             }).from(["#title-1", "#title-2", "#title-3"], {
                 opacity: 0,
                 y: "+=30",
@@ -38,12 +38,12 @@ const App = () => {
                 stagger: 0.5,
             }).to("#intro-slider", {
                 xPercent: "-100",
-                duration: 1.3,
+                duration: 1.0,
                 height:0,
-            })/*.from("#application", {
+            }).from("#application", {
                 opacity: 0,
                 duration: 0.5,
-            })*/
+            })
         }, comp)
         return () => ctx.revert()
     }, [])
