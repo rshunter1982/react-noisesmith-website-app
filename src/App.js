@@ -40,10 +40,10 @@ const App = () => {
                 xPercent: "-100",
                 duration: 1.3,
                 height:0,
-            }).from("#application", {
+            })/*.from("#application", {
                 opacity: 0,
                 duration: 0.5,
-            })
+            })*/
         }, comp)
         return () => ctx.revert()
     }, [])

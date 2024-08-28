@@ -70,6 +70,8 @@
     justify-content: center;
     font-size: calc(10px + 2vmin);
     color: black;
+    margin: 0;
+    position: absolute;
 }
 .App-header {
     left: 0;
